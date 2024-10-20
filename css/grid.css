@@ -1,0 +1,61 @@
+.gallary{
+    font-size: 1.2rem;
+    display: grid;
+    gap: 15px;
+    margin: 100px;
+    margin-top: 50px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-auto-rows: 120px;
+}
+.box{
+    background-size: cover;
+    background-position: top;
+    background-color: #393737;
+    background-blend-mode:hard-light;
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    border-radius: 5px;
+}
+
+#box1{
+    grid-row: span 2;
+}
+#box2{
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+#box3{
+    grid-row: span 3;
+}
+#box4{
+    grid-row: span 2 ;
+}
+#box5{
+    grid-row: span 3;
+}
+#box6{
+    grid-row: span 4;
+    
+}
+#box7{
+    grid-row: span 4;
+    
+}
+#box8{
+    grid-row: span 3;
+    
+}
+#box9{
+    grid-column: span 2;
+    grid-row: span 3;
+}
+#box10{
+    grid-row: span 3;
+}
+
+.box:hover{
+    background-color: #7c7373;
+    background-position: center;
+}
